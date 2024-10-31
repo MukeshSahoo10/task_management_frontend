@@ -180,7 +180,7 @@ function TaskManager() {
             </div>
 
             {/* Filter & Search Section */}
-            <div className='d-flex mb-4 w-100'>
+            {/* <div className='d-flex mb-4 w-100'>
                 <input
                     type='text'
                     placeholder='Search tasks...'
@@ -205,10 +205,10 @@ function TaskManager() {
                     onChange={(e) => handleFilter('due_date', e.target.value)}
                     className='form-control'
                 />
-            </div>
+            </div> */}
             
             {/* Task List */}
-            <div className='d-flex flex-column w-100'>
+            {/* <div className='d-flex flex-column w-100'>
                 {filteredTasks.map((task) => (
                     <div key={task.id} className='m-2 p-2 border bg-light w-100 rounded d-flex justify-content-between align-items-center'>
                         <div>
@@ -230,7 +230,7 @@ function TaskManager() {
                         </div>
                     </div>
                 ))}
-            </div>
+            </div> */}
 
             <ToastContainer />
         </div>
