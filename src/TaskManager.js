@@ -195,7 +195,7 @@ function TaskManager() {
                     <option value='Completed'>Completed</option>
                 </select>
                 <select onChange={(e) => handleFilter('priority', e.target.value)} className='form-select me-2'>
-                    <option value=''>Priority</option>
+                    <option value=''>Prioritys</option>
                     <option value='Low'>Low</option>
                     <option value='Medium'>Medium</option>
                     <option value='High'>High</option>
