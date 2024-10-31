@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FaPencilAlt, FaTrash } from 'react-icons/fa';
+// import { FaPencilAlt, FaTrash } from 'react-icons/fa';
 import { ToastContainer } from 'react-toastify';
 import { CreateTask, DeleteTaskById, GetAllTasks, UpdateTaskById } from './api';
 import { notify } from './utils';
